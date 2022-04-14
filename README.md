@@ -42,7 +42,7 @@ The data set contains the following diseases:
   - Which class has the least number of samples?
   - Which classes dominate the data in terms of the proportionate number of samples?
 - __Handling class imbalance:__ Rectify class imbalance present in the training dataset with Augmentor library.
-- __Model Building & training on the rectified class imbalance data:
+- __Model Building & training on the rectified class imbalance data:__
   - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale the images to normalize pixel values between (0, 1).
   - Choose an appropriate optimiser and loss function for model training
   - Train the model for ~30 epochs
